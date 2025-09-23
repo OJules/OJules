@@ -100,7 +100,7 @@
 
 ## 🌟 Fun Facts
 
-- 🇨🇮🇨🇭 Multicultural background (Ivory Coast ↔ Switzerland)
+- 🇨🇮🇨🇭 Multicultural background (Côte d'Ivoire ↔ Switzerland ↔ France)
 - 🎸 Music enthusiast who codes to jazz
 - 📚 Always learning - currently diving deep into medical AI
 - ☕ Coffee-powered statistical modeling sessions
