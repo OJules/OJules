@@ -79,6 +79,7 @@ Bias-mitigation strategies and fairness metrics on imbalanced datasets.
 *Thesis: statistical evaluation of public-prevention campaigns in Switzerland.*
 
 **B.Sc. Mathematics**, Université Internationale de Grand Bassam, Côte d'Ivoire (2017 to 2020)
+*Thesis: deecision trees: classification and regression cases*
 
 ---
 
