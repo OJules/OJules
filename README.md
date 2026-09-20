@@ -86,12 +86,5 @@ Bias-mitigation strategies and fairness metrics on imbalanced datasets.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jules-odje)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:odjejulesgeraud@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OJules)
 
-<div align="center">
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=OJules&show_icons=true&theme=default&include_all_commits=true&count_private=true"/>
-</div>
 
----
-
-*Interested in the intersection of ML/statistics and development economics, especially African markets.*
