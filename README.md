@@ -1,28 +1,28 @@
 # 👋 Hi, I'm Jules
 
-## Building AI systems you can trust — on real, messy, business data
+## Building AI systems you can trust, on real, messy, business data
 
-> I build AI systems that plug into a company's real data — and I make them **reliable**: I know how to evaluate them, measure where they fail, and make them **abstain rather than be wrong**.
+> I build AI systems that plug into a company's real data, and I make them **reliable**: I know how to evaluate them, measure where they fail, and make them **abstain rather than be wrong**.
 
 My edge is not "I can call an LLM." It's **measurable reliability**: retrieval evaluation, uncertainty quantification, calibrated abstention. My research background (conformal risk control) is exactly what makes this rigorous.
 
-🌍 Neuchâtel, Switzerland · 🇨🇮🇨🇭🇫🇷 Ivorian–Swiss–French background
-🎓 Dual Master's — Statistics (Neuchâtel) + ML/AI (Lyon 2)
+🌍 Neuchâtel, Switzerland · 🇨🇮🇨🇭🇫🇷 Ivorian, Swiss and French background
+🎓 Dual Master's: Statistics (Neuchâtel) and ML/AI (Lyon 2)
 
 ---
 
 ## 🔥 Featured project
 
-### 📄 [RAG Assurance — a system that knows when it misread](https://github.com/OJules/rag-assurance) · [**Live demo**](https://rag-assurance.streamlit.app/)
+### 📄 [RAG Assurance, a system that knows when it misread](https://github.com/OJules/rag-assurance) · [**Live demo**](https://rag-assurance.streamlit.app/)
 
-A document-QA assistant for insurance contracts — the full chain, from a business question to a **usable, traceable decision**.
+A document-QA assistant for insurance contracts: the full chain, from a business question to a **usable, traceable decision**.
 
-Not "a RAG that reads PDFs" — a system that **knows when it misread, says so, reasons contract-by-contract to avoid mixing them, and measures its own reliability.**
+Not "a RAG that reads PDFs", but a system that **knows when it misread, says so, reasons contract-by-contract to avoid mixing them, and measures its own reliability.**
 
-- **Retrieval isn't the bottleneck**: Recall@5 ≈ 0.97 — the errors that remain have *perfect* retrieval, so the weak link is reasoning, not search.
-- **Contract confusion, measured**: when several contracts share an attribute with different values, a global RAG mixes them. I isolated reasoning per contract and built trap questions to measure it — **global 0/11 vs per-contract 11/11 correctly attributed**, at ~2× the cost. A measured trade-off, not an assumption.
-- **Honest about extraction quality**: each passage carries an explainable quality score (good / medium / poor) and *why* — and I document what it still misses (column interleaving, character spacing).
-- **Deployed**, with a business-facing interface: decision → evidence → sources → uncertainty.
+- **Retrieval isn't the bottleneck**: Recall@5 ≈ 0.97. The errors that remain have *perfect* retrieval, so the weak link is reasoning, not search.
+- **Contract confusion, measured**: when several contracts share an attribute with different values, a global RAG mixes them. I isolated reasoning per contract and built trap questions to measure it: **global 0/11 vs per-contract 11/11 correctly attributed**, at about 2× the cost. A measured trade-off, not an assumption.
+- **Honest about extraction quality**: each passage carries an explainable quality score (good / medium / poor) and *why*, and I document what it still misses (column interleaving, character spacing).
+- **Deployed**, with a business-facing interface: decision, evidence, sources, uncertainty.
 
 Stack: Python · sentence-transformers (E5) · Chroma · Groq · Streamlit · pdfplumber
 
@@ -30,17 +30,28 @@ Stack: Python · sentence-transformers (E5) · Chroma · Groq · Streamlit · pd
 
 ## 🎯 What I focus on
 
-- **Reliable RAG & document AI** — retrieval, grounding, citation, abstention
-- **Evaluation of AI systems** — gold sets, the right metrics, and knowing when a metric lies
-- **Uncertainty quantification** — conformal prediction (CRC, K-CRC, sem-CRC), calibrated abstention
-- **From prototype to deployment** — turning a model into something a business can actually use
+- **Reliable RAG & document AI**: retrieval, grounding, citation, abstention
+- **Evaluation of AI systems**: gold sets, the right metrics, and knowing when a metric lies
+- **Uncertainty quantification**: conformal prediction (CRC, K-CRC, sem-CRC), calibrated abstention
+- **From prototype to deployment**: turning a model into something a business can actually use
+
+---
+
+## 💼 Professional experience
+
+- **Data Scientist intern**, WTO, Economic Research and Statistics Division, Geneva (2026)
+- **Data Scientist (AI Research)**, Université Lyon 2 (2025)
+- **Statistical Research Analyst**, LIVES Institute, UNIL (2022)
+- **Data Analyst & Product Designer**, Assurland Africa (2021)
+- **Project Manager**, ESN Neuchâtel (2023 to 2025)
+- **Mathematics Tutor**, Anacours (2025) and Université Internationale de Grand Bassam (2019 to 2020)
 
 ---
 
 ## 🧪 Other projects
 
 ### 🎲 [Conformal Risk Control](https://github.com/OJules/Predicition-Conforme)
-Uncertainty quantification for medical AI — CRC, K-CRC and sem-CRC, with a benchmarking pipeline. *The methodological backbone behind the "reliability" angle above.*
+Uncertainty quantification for medical AI: CRC, K-CRC and sem-CRC, with a benchmarking pipeline. *The methodological backbone behind the reliability angle above.*
 
 ### 🌐 [Domain Adaptation](https://github.com/OJules/Adaptation-de-Domaine)
 Transfer-learning techniques for domain shift across data distributions.
@@ -52,24 +63,22 @@ Bias-mitigation strategies and fairness metrics on imbalanced datasets.
 
 ## 🛠️ Tech
 
-**Languages** — Python, R, SQL
-**ML / DS** — PyTorch, TensorFlow, scikit-learn, pandas
-**LLM / RAG** — sentence-transformers, Chroma, retrieval evaluation, answer-contract design
-**Delivery** — Streamlit, Git, deployment
+**Languages**: Python, R, SQL
+**ML / DS**: PyTorch, TensorFlow, scikit-learn, pandas
+**LLM / RAG**: sentence-transformers, Chroma, retrieval evaluation, answer-contract design
+**Delivery**: Streamlit, Git, deployment
 
 ---
 
 ## 🎓 Background
 
-**M.Sc. ML/AI (MIASHS)** — Université Lyon 2 (2024–2025)
+**M.Sc. ML/AI (MIASHS)**, Université Lyon 2 (2024 to 2025)
 *Thesis: conformal risk control for semantic uncertainty quantification in CT imaging.*
 
-**M.Sc. Statistics** — Université de Neuchâtel (2021–2023)
+**M.Sc. Statistics**, Université de Neuchâtel (2021 to 2023)
 *Thesis: statistical evaluation of public-prevention campaigns in Switzerland.*
 
-**B.Sc. Mathematics** — Université Internationale de Grand Bassam, Côte d'Ivoire (2017–2020)
-
-Currently: Data Scientist intern, WTO — Economic Research and Statistics Division (Geneva).
+**B.Sc. Mathematics**, Université Internationale de Grand Bassam, Côte d'Ivoire (2017 to 2020)
 
 ---
 
@@ -85,4 +94,4 @@ Currently: Data Scientist intern, WTO — Economic Research and Statistics Divis
 
 ---
 
-*Interested in the intersection of ML/statistics and development economics — especially African markets.*
+*Interested in the intersection of ML/statistics and development economics, especially African markets.*
